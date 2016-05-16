@@ -1,5 +1,5 @@
 
-[![node.cobol](http://i.imgur.com/x9CJpKB.png)](#)
+[![node.cobol](http://i.imgur.com/0ZqQ14H.png)](#)
 
 # node.cobol
 
