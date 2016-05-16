@@ -1,6 +1,6 @@
 {
   "name": "node.cobol",
-  "description": "Run Node.js from COBOL.",
+  "description": "Node.js bridge for COBOL which allows you to run Node.js code from COBOL.",
   "keywords": [
     "node",
     "cobol",
@@ -33,5 +33,64 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node.cobol/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node.cobol#readme"
+  "homepage": "https://github.com/IonicaBizau/node.cobol#readme",
+  "blah": {
+    "examplePath": "main.cbl",
+    "exampleLang": "cobol",
+    "h_img": "http://i.imgur.com/x9CJpKB.png",
+    "ex_img": "http://i.imgur.com/kUlpHyB.png",
+    "installation": [
+      [
+        "You have to install [Node.js](https://nodejs.org/en/) on",
+        "your machine. In case you do not have a COBOL compiler,",
+        "you can install it by running:"
+      ],
+      {
+        "code": {
+          "language": "sh",
+          "content": [
+            "# Ubuntu",
+            "sudo apt-get install open-cobol",
+            "",
+            "# OS X",
+            "brew install gnu-cobol"
+          ]
+        }
+      }
+    ],
+    "example": [
+      "To compile the program, use:",
+      {
+        "code": {
+          "language": "sh",
+          "content": "cobc -x example/main.cbl lib/node-exec-*"
+        }
+      }
+    ],
+    "documentation": [
+      "The COBOL modules from the [`lib/`](/lib) directory export the following subroutines:",
+      {
+        "h3": "`EXEC_NODEJS(code)`"
+      },
+      {
+        "ul": [
+          "`code`: The Node.js snippet to execute."
+        ]
+      },
+      {
+        "h3": "`EXEC_NODEJS_FILE(file)`"
+      },
+      {
+        "ul": [
+          "`file` (CHARACTER(len=10000)): The Node.js file path."
+        ]
+      }
+    ],
+    "related": [
+      "cobol"
+    ]
+  },
+  "dependencies": {
+    "image-to-ascii": "^3.0.2"
+  }
 }
