@@ -7,7 +7,7 @@
 
 > Node.js bridge for COBOL which allows you to run Node.js code from COBOL.
 
-[![node.cobol](http://i.imgur.com/0ZqQ14H.png)](#)
+[![node.cobol](http://i.imgur.com/xmsSmLX.png)](#)
 
 You have to install [Node.js](https://nodejs.org/en/) on
 your machine. In case you do not have a COBOL compiler,
