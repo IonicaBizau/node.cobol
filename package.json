@@ -37,8 +37,8 @@
   "blah": {
     "examplePath": "main.cbl",
     "exampleLang": "cobol",
-    "h_img": "http://i.imgur.com/0ZqQ14H.png",
-    "ex_img": "http://i.imgur.com/kUlpHyB.png",
+    "h_img": "http://i.imgur.com/x9CJpKB.png",
+    "ex_img": "http://i.imgur.com/0ZqQ14H.png",
     "installation": [
       [
         "You have to install [Node.js](https://nodejs.org/en/) on",
