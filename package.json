@@ -82,7 +82,7 @@
       },
       {
         "ul": [
-          "`file` (CHARACTER(len=10000)): The Node.js file path."
+          "`file`: The Node.js file path."
         ]
       }
     ],

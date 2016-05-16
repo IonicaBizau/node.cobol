@@ -70,7 +70,7 @@ The COBOL modules from the [`lib/`](/lib) directory export the following subrout
 
 ### `EXEC_NODEJS_FILE(file)`
 
- - `file` (CHARACTER(len=10000)): The Node.js file path.
+ - `file`: The Node.js file path.
 
 
 ## :yum: How to contribute
