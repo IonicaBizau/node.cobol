@@ -1,7 +1,7 @@
       * Compile this file together with the node.cobol
       * modules:
       *
-      *  $ cobc -x example/main.cbl lib/node-exec-*
+      *  $ cobc -x example/main.cbl lib/node-exec*.cbl
       *
       * Then execute the binary file:
       *
