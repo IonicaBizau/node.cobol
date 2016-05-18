@@ -58,7 +58,7 @@ brew install gnu-cobol
 
 To compile the program, use:
 ```sh
-cobc -x example/main.cbl lib/node-exec-*
+cobc -x example/main.cbl lib/node-exec*.cbl
 ```
 
 ## :memo: Documentation
