@@ -56,6 +56,15 @@ brew install gnu-cobol
        STOP RUN.
 ```
 
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 To compile the program, use:
 ```sh
 cobc -x example/main.cbl lib/node-exec*.cbl
@@ -67,9 +76,11 @@ The COBOL modules from the [`lib/`](/lib) directory export the following subrout
 ### `EXEC_NODEJS(code)`
 
  - `code`: The Node.js snippet to execute.
+
 ### `EXEC_NODEJS_FILE(file)`
 
  - `file`: The Node.js file path.
+
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
@@ -98,6 +109,7 @@ Thanks! :heart:
  - [`cobol`](https://github.com/IonicaBizau/node-cobol)—COBOL bridge for NodeJS which allows you to run COBOL code from NodeJS.
  - [`fortran`](https://github.com/IonicaBizau/node-fortran)—Fortran bridge for Node.js which allows you to run Fortran code from Node.js.
  - [`node.fortran`](https://github.com/IonicaBizau/node.fortran#readme)—Execute Node.js in your Fortran programs.
+
 
 
 ## :scroll: License
