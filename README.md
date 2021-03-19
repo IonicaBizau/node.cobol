@@ -57,10 +57,11 @@
 
 You have to install [Node.js](https://nodejs.org/en/) on
 your machine. In case you do not have a COBOL compiler,
-you can install it by running:
+you can install [GnuCOBOL](https://www.gnu.org/software/gnucobol/) by running:
 ```sh
-# Ubuntu
-sudo apt-get install open-cobol
+# Ubuntu and other debian-based distributions
+sudo apt install gnucobol
+# outdated systems: sudo apt-get install open-cobol
 
 # OS X
 brew install gnu-cobol
