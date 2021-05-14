@@ -60,8 +60,10 @@ your machine. In case you do not have a COBOL compiler,
 you can install [GnuCOBOL](https://www.gnu.org/software/gnucobol/) by running:
 ```sh
 # Ubuntu and other debian-based distributions
-sudo apt install gnucobol
-# outdated systems: sudo apt-get install open-cobol
+sudo apt-get install open-cobol
+
+ Older versions of Debian-based systems:
+sudo apt-get install open-cobol
 
 # OS X
 brew install gnu-cobol
